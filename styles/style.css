@@ -1,0 +1,74 @@
+@import url(./modules/resets.css);
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(1, 1);
+  }
+  10% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(.25, 1);
+  }
+
+  15% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(.25, 1);
+  }
+
+  30% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(0.25, 0.25);
+  }
+
+  35% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(0.25, 0.25);
+  }
+
+  40% {
+    box-shadow: 0 0 5rem var(--pulse-color) inset;
+    transform: scale(0.25, 0.25);
+    border-radius: 5rem;
+  }
+
+  50% {
+    box-shadow: 0 0 50px var(--main-color) inset;
+    transform: scale(0.25, 0.25);
+  }
+
+  60% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(0.25, 1);
+  }
+
+  65% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(0.25, 1);
+  }
+
+  70% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(1, 1);
+  }
+
+  75% {
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(1, 1);
+  }
+  100%{
+    box-shadow: 0 0 5rem var(--main-color) inset;
+    transform: scale(1, 1);
+  }
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  margin: 0 auto;
+  margin-top: 15rem;
+  width: 30rem;
+  height: 30rem;
+  background: var(--main-color);
+  animation: animate 5s ease-in infinite;
+
+}
